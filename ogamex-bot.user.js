@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         OGameX Assistant
-// @namespace    https://github.com/Mitjano/Bybit_bot/ogamex-bot
+// @namespace    https://github.com/cthae/OgameX-Bot
 // @version      2.99.1
 // @description  Bot for OgameX
 // @author       cth
 // @match        https://*.ogamex.net/*
-// @updateURL    https://github.com/cthae/OgameX-Bot/blob/main/ogamex-bot.user.js
-// @downloadURL  https://github.com/cthae/OgameX-Bot/blob/main/ogamex-bot.user.js
+// @updateURL    https://github.com/cthae/OgameX-Bot/raw/refs/heads/main/ogamex-bot.user.js
+// @downloadURL  https://github.com/cthae/OgameX-Bot/raw/refs/heads/main/ogamex-bot.user.js
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_xmlhttpRequest
