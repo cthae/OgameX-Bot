@@ -40,10 +40,12 @@ For now, I'm just gonna risk using [Tbot's Discord server](https://discord.gg/At
 Someone used Claude to generate a bot for OgameX and made it publically available here: https://github.com/Mitjano/ogamex-userscript/blob/main/ogamex-bot.user.js
 The huge issue with that repo is that it's in Polish... Readme is Egnlish, but almost the whole codebase is in Polish. Iiiincluding regexes used to check for messages from ogamex. Which is... Uh. Terrible.
 
-I cloned it and ran it through DeepSeek trying to translate it to English. DeepSeek didn't like the task and got looped in writing subprompts to itself. Had to stop it after half an hour and make it stop trying to translate regular expressions and var names, etc. It managed to recover and finish the task in a minute after that. Initial testing shows that the bot works.
+I cloned it at version 2.99.1 and ran it through DeepSeek trying to translate it to English. DeepSeek didn't like the task and got looped in writing subprompts to itself. Had to stop it after half an hour and make it stop trying to translate regular expressions and var names, etc. It managed to recover and finish the task in a minute after that. Initial testing shows that the bot works.
 
 # Disclaimer
 
 Given how this was all vibe coded, it is risky to run. Don't run on accounts you treasure. I have more fun tinkering with scripts than playing the actual game, so I don't worry about getting banned. So far, however, I haven't been banned, so there's no automatic detection in place to act upon. OgameX devs are also busy with their new game, so I don't expect any sophisticated analysis done on this script to detect it reliably. The whole bot loop runs in a closure, so nothing is exposed. Seemingly. I haven't yet gone through the whole codebase. AI can make odd decisions.
 
 Berware, however, that you will be banned if you invoke enough reasonable suspicion. So like if you play for 90 hours straight with no pause, that's sus. Do use the sleep feature or let the bot chill manually by just closing the tab. I usually let it chill for 8 hours every 50 hours or so.
+
+The bot kinda tries to use a few third party but so far what I'm seeing is these are benign things. 
