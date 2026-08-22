@@ -1,6 +1,7 @@
 # OgameX-Bot
 
 Tampermonkey JS bot to automate basic routines for OgameX!
+
 <img width="413" height="1001" alt="image" src="https://github.com/user-attachments/assets/c427f63f-1f79-4639-90eb-76a293893472" />
 
 
