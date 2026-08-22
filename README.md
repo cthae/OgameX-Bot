@@ -4,13 +4,13 @@ Tampermonkey JS bot to automate basic routines for OgameX!
 
 # Basic features
 
-* Asteroid Miner: Periodically checks if there are asteroids available, then checks the ranges and dispatches asteroid miners.
-* Inactives Farmer: Farms inactives. Can farm with BCs. Made with the Inactive Farming Event in mind.
-* Defense: Monitors for attacks, saves the fleet when one is detected.
-* Fleet Save: Grabs the res and all ships, fly to another moon on deployment mission. Recall in the middle, as usual.
-* Expeditions: Sends expos from a moon whenever there are slots.
-* Bonus: Grabs the green DM + Academy points bonus.
-* Anti detection: a primitive attempt to randomize certain actions. Minor but better than nothing.
+* **Asteroid Miner**: Periodically checks if there are asteroids available, then checks the ranges and dispatches asteroid miners.
+* **Inactives Farmer**: Farms inactives. Can farm with BCs. Made with the Inactive Farming Event in mind.
+* **Defense**: Monitors for attacks, saves the fleet when one is detected.
+* **Fleet Save**: Grabs the res and all ships, fly to another moon on deployment mission. Recall in the middle, as usual.
+* **Expeditions**: Sends expos from a moon whenever there are slots.
+* **Bonus**: Grabs the green DM + Academy points bonus.
+* **Anti detection**: a primitive attempt to randomize certain actions. Minor but better than nothing.
 
 # How to use
 
@@ -25,11 +25,11 @@ Contributions to this repo are very welcome. I'm mostly trying to automate the b
 
 # Plan
 
-[ ] Add some Merchant -> Auction gentle logic. Not too competitive to avoid detection. Maybe make a bid every 10 minutes or so if the price is allowing.
-[ ] Add the Merchant -> Export/Import automation.
-[ ] Polish the logic manually where needed.
-[ ] Test main features [in progress]
-[x] Translate the bot.
+* [ ] Add some Merchant -> Auction gentle logic. Not too competitive to avoid detection. Maybe make a bid every 10 minutes or so if the price is allowing.
+* [ ] Add the Merchant -> Export/Import automation.
+* [ ] Polish the logic manually where needed.
+* [ ] Test main features [in progress]
+* [x] Translate the bot.
 
 # Contact
 
@@ -46,4 +46,4 @@ I cloned it and ran it through DeepSeek trying to translate it to English. DeepS
 
 Given how this was all vibe coded, it is risky to run. Don't run on accounts you treasure. I have more fun tinkering with scripts than playing the actual game, so I don't worry about getting banned. So far, however, I haven't been banned, so there's no automatic detection in place to act upon. OgameX devs are also busy with their new game, so I don't expect any sophisticated analysis done on this script to detect it reliably. The whole bot loop runs in a closure, so nothing is exposed. Seemingly. I haven't yet gone through the whole codebase. AI can make odd decisions.
 
-Berware, however, that you will be banned if you invoke enough reasonable suspicion. So like if you play for 90 hours straight with no pause, that's sus. Do use the sleep feature or let the bot chill manually by just closing the tab.
+Berware, however, that you will be banned if you invoke enough reasonable suspicion. So like if you play for 90 hours straight with no pause, that's sus. Do use the sleep feature or let the bot chill manually by just closing the tab. I usually let it chill for 8 hours every 50 hours or so.
