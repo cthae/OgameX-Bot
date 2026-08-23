@@ -11808,7 +11808,7 @@ const __gmSetRaw = GM_setValue;
   // every 30 min and shouts (red log + journal with push) when the
   // local one is older. It updates nothing itself — that's TM's job.
   const UpdateWatch = {
-    URL: "https://raw.githubusercontent.com/Mitjano/ogamex-userscript/main/ogamex-bot.user.js",
+    URL: "https://github.com/cthae/OgameX-Bot/raw/refs/heads/main/ogamex-bot.user.js",//"https://raw.githubusercontent.com/Mitjano/ogamex-userscript/main/ogamex-bot.user.js",
     KEY_AT: "ogamex_updwatch_at",
     KEY_NAG: "ogamex_updwatch_nag",
 
