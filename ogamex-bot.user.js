@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OGameX Assistant
 // @namespace    https://github.com/cthae/OgameX-Bot
-// @version      2.99.1
+// @version      2.99.2
 // @description  Bot for OgameX
 // @author       cth
 // @match        https://*.ogamex.net/*
@@ -1354,7 +1354,7 @@ const __gmSetRaw = GM_setValue;
   // 300-system scan can push ~300 requests in 7-8 minutes. NavRateLimiter
   // closes that gap so the scan pauses itself before looking bot-like.
   const NavRateLimiter = {
-    maxPerHour: 300,
+    maxPerHour: 450,
     KEY: "ogamex_nav_actions",
 
     _load() {
@@ -1419,7 +1419,7 @@ const __gmSetRaw = GM_setValue;
   // Balances stealth vs throughput (owner choice 2026-06-08). The
   // closest-range-first scan ORDER is unchanged — only the pacing.
   function humanScanDelayMs() {
-    return 2000 + Math.random() * 4000;
+    return 1000 + Math.random() * 2000;
   }
 
   // ═══════════════════════════════════════════════════════════════
