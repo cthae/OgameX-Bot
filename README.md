@@ -33,14 +33,13 @@ Contributions to this repo are very welcome. I'm mostly trying to automate the b
 * [ ] Add the Merchant -> Export/Import automation.
 * [ ] Polish the logic manually where needed.
 * [ ] Test main features [in progress]
-** 
-** [ ] Fleet Save: pending testing.
-** [ ] Defense automation has bugs. Probably something to do with Polish regexes not translating perfectly back to English. I haven't yet looked closer into it.
-** [x] Inactives Farmer works well. It's simplistic and designed to only farm one system range from one origin at a time. Which is good enough for the inactive farming event. Not as good for casual farming. It's far less elaborate than Tbot's autofarmer, but it does the trick fine.
-** [x] Anti detection seem to be working fine. It's not diablable though.
-** [x] Expos are being sent properly though there are slight quirks. It sends them manually one after another to avoid them all coming back together to prevent a timed destruction of all fleets. But it doesn't collect debriss, which is the main point of expos later on. 
-** [x] Asteroids are being correctly scanned and mined on time.
-** [x] Online Bonus is being automatically claimed whenever it's there.
+ * [ ] Fleet Save: pending testing.
+ * [ ] Defense automation has bugs. Probably something to do with Polish regexes not translating perfectly back to English. I haven't yet looked closer into it.
+ * [x] Inactives Farmer works well. It's simplistic and designed to only farm one system range from one origin at a time. Which is good enough for the inactive farming event. Not as good for casual farming. It's far less elaborate than Tbot's autofarmer, but it does the trick fine.
+ * [x] Anti detection seem to be working fine. It's not diablable though.
+ * [x] Expos are being sent properly though there are slight quirks. It sends them manually one after another to avoid them all coming back together to prevent a timed destruction of all fleets. But it doesn't collect debriss, which is the main point of expos later on. 
+ * [x] Asteroids are being correctly scanned and mined on time.
+ * [x] Online Bonus is being automatically claimed whenever it's there.
 * [x] Translate the bot.
 
 # Contact
