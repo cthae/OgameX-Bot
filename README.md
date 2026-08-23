@@ -1,3 +1,6 @@
+# Warning! 
+While Claude did a good job making a bot, it kinda missed the point. The whole bot does .click() everywhere. Which is kinda trivial to detect since synthetic clicks have very telltale signs of not being organic. You run the bot actively? you get banned. The whole technology of making web bots using tampermonkey is not a great idea. Has to be a proper testing framework using a headless browser. Something like Selenium of Playwright. Hence, I'm archiving this repo.
+
 # OgameX-Bot
 
 Tampermonkey JS bot to automate basic routines for OgameX!
